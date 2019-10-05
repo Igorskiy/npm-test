@@ -1,0 +1,27 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./public -c-1",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igorskiy/npm-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igorskiy/npm-test/issues"
+  },
+  "homepage": "https://github.com/Igorskiy/npm-test#readme",
+  "dependencies": {
+    "ecstatic": "^3.0.0",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
